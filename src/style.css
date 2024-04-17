@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.hearts,
+.diamonds {
+  color: red;
+}
+.poker-card {
+  height: 400px;
+  width: 300px;
+  font-size: 75px;
+}
+#card-bottom {
+  transform: scaleY(-1);
+}
